@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.module.simplejson" name="tvdb_api" version="1.10" provider-name="Andreas Ihrig">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <language></language>
+    <summary lang="en">tvdb_api is an easy to use interface to thetvdb.com</summary>
+    <description lang="en">tvdb_api is an easy to use interface to thetvdb.com</description>
+    <disclaimer lang="en">Code taken from https://pypi.python.org/pypi/tvdb_api</disclaimer>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+    <website>https://pypi.python.org/pypi/tvdb_api</website>
+    <source>https://pypi.python.org/pypi/tvdb_api</source>
+  </extension>
+</addon>
